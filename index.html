@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        .nav {
+        font-family: Sofia, serif;
+        }
+
+       
+    </style>
+
+    <style>
+        .mySlides {display:none;}
+    </style>
+    <title>Document</title>
+</head>
+<body >
+    <!-- <div class="w3-container"> -->
+        <!-- Navbar always on top -->
+        <div class="w3-top w3-bar w3-white w3-card  w3-wide nav ">
+            <!-- Left -->
+            <a href="#home" class=" w3-bar-item w3-button"><b>HN</b>Entertainment</a>
+        
+            <!-- Right -->
+            <div  class="w3-hide-small w3-right"><input type="text" class="w3-bar-item w3-input" placeholder="Search.."><a href="#" class="w3-bar-item w3-button w3-green">Go</a> </div>
+            <a href="#USUK" class="w3-bar-item w3-button w3-right w3-hide-small">US-UK</a>
+            <a href="#Chinapop" class="w3-bar-item w3-button w3-right w3-hide-small">Chinese pop</a>
+            <a href="#Vietpop" class="w3-bar-item w3-button w3-right w3-hide-small">Vietnam pop</a>
+            
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            <!-- Showing collapsing nav -->
+            <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+                <a href="#USUK" class="w3-bar-item w3-button w3-right">US-UK</a>
+                <a href="#Chinapop" class="w3-bar-item w3-button w3-right">Chinese pop</a>
+                <a href="#Vietpop" class="w3-bar-item w3-button w3-right">Vietnam pop</a>
+            </div>
+        </div>
+        <!-- Page start -->
+        <div #id="home" class="w3-content" style="max-width:1564px"></div>
+        
+        <!-- Slider-->
+        <div class="w3-display-container w3-margin-top slide">
+            <img class="mySlides w3-image" src=".\assets\img\slider1.jpg" alt=""  width="100%">
+            <img class="mySlides w3-image" src=".\assets\img\slider2.jpg" alt=""  width="100%">
+            <img class="mySlides w3-image" src=".\assets\img\slider3.jpg" alt=""  width="100%">
+            
+            <button class="w3-button w3-black w3-display-left " onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <!-- Vietnam pop -->
+        <div id="Vietpop" class="container w3-padding-32">
+            <h2 class="w3-center">Vietnamese pop</h2>
+            <div class="w3-row w3-center">
+                <div class="w3-third w3-center">
+                    
+                    <iframe width="60%" height="30%" src="https://www.youtube.com/embed/bxfj5i5aZFE"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Thiên thai</p>
+                    </div>
+                
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/XhCgJeJbVu0"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Bên cầu biên giới</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/KS2QEP2elFo"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Tuổi đá buồn</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <br>
+            <div class="w3-row w3-center">
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/eyFP5s403jY"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Vợ người ta</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/DssXiW8zDjg"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Có khi nào rời xa</p>
+                    </div>
+               
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://youtube.com/embed/_aghWPzkB7M"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Ngày chưa giống bão</p>
+                    </div>
+             
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Chinese pop -->
+        <div id="Chinapop" class="container w3-padding-32 w3-pale-red">
+            <h2 class="w3-center">C-Pop</h2>
+            <div class="w3-row w3-center">
+                <div class="w3-third w3-center">
+                    
+                    <iframe width="60%" height="30%" src="https://www.youtube.com/embed/Nl5DR3IRfQ"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Quân tử hành</p>
+                    </div>
+                
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/b6qo18EvScI"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Nhất niệm nhất sinh</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/HgqlVxxJcls"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Vấn</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <br>
+            <div class="w3-row w3-center">
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/nku5zFMZAdU"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Mộng tỉnh thời phân</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/5wmfXve11rM"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Hồng đậu</p>
+                    </div>
+               
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://youtube.com/embed/04cHqPMD4So"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius w3-white" style="width:60%;margin: auto;">
+                        <p>Năm tháng vội vã</p>
+                    </div>
+             
+                </div>
+            </div>
+        </div>
+
+        <!-- US-UK -->
+        <div id="USUK" class="container w3-padding-32">
+            <h2 class="w3-center">US-UK</h2>
+            <div class="w3-row w3-center">
+                <div class="w3-third w3-center">
+                    
+                    <iframe width="60%" height="30%" src="https://www.youtube.com/embed/BWf-eARnf6U"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Heal the world</p>
+                    </div>
+                
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/s3wNuru4U0I"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>We are the world</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/YrLk4vdY28Q"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Hallelujah</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <br>
+            <div class="w3-row w3-center">
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/YkgkThdzX-8"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Imagine</p>
+                    </div>
+                    
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://www.youtube.com/embed/3Uo0JAUWijM"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Happy new year</p>
+                    </div>
+               
+                </div>
+                <div class="w3-third">
+                    <iframe width="60%" height="40%" src="https://youtube.com/embed/09R8_2nJtjg"></iframe>
+                    <div class="w3-container w3-center w3-card w3-radius" style="width:60%;margin: auto;">
+                        <p>Sugar</p>
+                    </div>
+             
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Script for collapsing navbar-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+    </script>
+    <!-- Script for slideshow -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+    
+    
+</body>
+</html>
